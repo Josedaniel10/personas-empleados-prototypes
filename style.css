@@ -1,0 +1,116 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+h1, h2 {
+    margin: 0 0 1rem;
+}
+
+#form-section, #list-section {
+    background-color: white;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#person-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+    padding: 0;
+}
+
+#person-list li {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    /* border-bottom: 1px solid #ddd; */
+}
+#person-list li span {
+    margin-top: 10px;
+}
+#person-list li .type {
+    padding: 6px;
+    background-color: #45a049;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 6px;
+    margin: 0;
+}
+#person-list li:last-child {
+    border-bottom: none;
+}
+
+.delete-btn {
+    margin-top: 10px;
+    background-color: #e93b3b;
+    padding: 6px;
+    max-width: max-content;
+    font-size: 14px;
+}
+.delete-btn:hover {
+    background-color: #e03636;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
